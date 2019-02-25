@@ -1,0 +1,96 @@
+body{
+  font-family: 'Gaegu', cursive;
+  background:rgb(255, 255, 255);
+  color:gray;
+}
+
+h1{
+  margin-left: 40px;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.contenedor > div{
+  font-size:50px;
+  margin:auto 25%;
+  text-align:center;
+  position:relative;
+  width:250px;
+  height:50px;
+  font-size:30px;
+  color:white;
+  border-radius:30px;
+  box-shadow:0 10px rgba(0, 0, 0,.3);
+  margin: 30px;
+}
+
+.hover{
+  background:rgb(255, 0, 76);
+}
+.hover:hover{
+  box-shadow:0 5px rgba(0, 0, 0,.3);
+  top:3px;
+}
+
+.click{
+  background:rgb(0, 79, 255);
+}
+.click:active{
+  box-shadow:none;
+  top:7px;
+}
+
+.all{
+  background:rgb(242, 212, 11);
+}
+.all:hover{
+  box-shadow:0 5px rgba(0, 0, 0,.3);
+  top:3px;
+}
+.all:active{
+  box-shadow:none;
+  top:7px;
+}
+
+p.texto-boton {
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.focus:focus{
+  background:rgb(74, 180, 84);
+  color: rgb(255,255,255);
+}
+
+.focus{
+  background:rgb(255, 255, 255);
+  color: gray;
+  border-width: medium;
+  border-style: dashed;
+  border: 2px solid rgb(74, 180, 84);
+  box-shadow:0 5px rgba(0, 0, 0,.3);
+  top:3px;
+}
+input{
+  border: none;
+  font-size:20px;
+}
+
+.listado{
+  margin-top: 60px;
+  margin-left: 40px;
+}
+li{
+  width: 100px;
+  color: white;
+  text-align: center;
+}
+li:nth-child(odd){
+  background-color: rgb(255, 0, 76);
+}
+li:nth-child(even){
+  background-color: rgb(74, 180, 84);
+}
